@@ -1,4 +1,4 @@
-####创建git项
+#### 创建git项
 本文章分享如何在GitHub上创建一个新的项目，并且通过linux命令行工具在电脑上下载这个项目并且进行编辑。然后上传到GitHub服务器。并且以链接的形式发布到网上
 需要注册GitHub，电脑安装linux命令行工具git_bash
 ###### （一）项目建立
@@ -11,12 +11,12 @@
 ![填写项目名，做好设置，然后点击Create repository 创建项目](http://upload-images.jianshu.io/upload_images/6992621-b332dea9d084923f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-####项目下载
-######（一）拷贝地址
+####  项目下载
+######  （一）拷贝地址
 
 ![点击Clone or download，并拷贝ssh地址](http://upload-images.jianshu.io/upload_images/6992621-eee192d2ab6f2b68.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###### （二）下载项目
+######  （二）下载项目
 
 
 
@@ -25,10 +25,10 @@
 
 ![克隆成功后会显示done。如上图 ](http://upload-images.jianshu.io/upload_images/6992621-34b75d9720db888c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-######（三）报错
+###### （三）报错
  
 ![如果输入时出现如下报错。是因为没有设置公钥。需要设置公钥后才能下载项目 ](http://upload-images.jianshu.io/upload_images/6992621-d5b0c48ae0d6df9a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-######（四）报错解决
+###### （四）报错解决
 
 ![解决上一步报错，需要设置公钥。方法如上图所示依次排列：
 进入设置](http://upload-images.jianshu.io/upload_images/6992621-f944f11832c64310.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -58,12 +58,12 @@
 
 
 
-######（五）从新下载项目
+###### （五）从新下载项目
 
 ![再次输入clone命令，这次成功下载项目](http://upload-images.jianshu.io/upload_images/6992621-18bb35de2effe552.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-####项目编辑
-######（一）项目编辑
+#### 项目编辑
+###### （一）项目编辑
 
 ![拷贝成功，使用命令行命令进入下载的项目文件](http://upload-images.jianshu.io/upload_images/6992621-0bb1764f61cd5c5b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -71,7 +71,7 @@
 ![使用命令行创建index.html](http://upload-images.jianshu.io/upload_images/6992621-10b5feef209cd2cf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-######（二）项目上传
+###### （二）项目上传
 
 ![输入提交命令，出现一串代码。global user.email "you@example.com"等。git服务器需要我们提供我们的git邮箱和id用来确定我们的身份](http://upload-images.jianshu.io/upload_images/6992621-a7937ac50544d35e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -83,7 +83,7 @@
 ![在GitHub刷新，看到我们刚刚上传的文件index.html文件上传成功](http://upload-images.jianshu.io/upload_images/6992621-01d087807fe63a3e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-####项目分享
+#### 项目分享
 
 
 
