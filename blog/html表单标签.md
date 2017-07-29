@@ -12,6 +12,7 @@
 
 ### input标签中name的作用
   name属性规定input元素的名称。name属性只用于提交到服务器后的表单数据进行标识，或者在客户端通过JavaScript引用表单数据。
+
 _注释_：只有设置了name属性的表单元素才能在提交表单时传递它们的值。
 
 ### radio分组
@@ -30,5 +31,7 @@ _注释_：只有设置了name属性的表单元素才能在提交表单时传�
 
   placeholder 属性提供可描述输入字段预期值的提示信息。
   该提示会在输入字段为空时显示，并会在字段获得焦点时消失。
+
 _注释_：placeholder 属性适用于以下的 <input> 类型：text, search, url, telephone, email 以及 password。
- _注释_: placeholder 属性是 HTML5 中的新属性。
+
+_注释_: placeholder 属性是 HTML5 中的新属性。
