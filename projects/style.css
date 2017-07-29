@@ -1,0 +1,15 @@
+table
+{
+	width: 600px;
+border-collapse: collapse;
+}
+td,th{
+	text-align: center;
+border: 1px solid #ccc;
+padding: 20px;
+
+}
+th
+{
+background-color: yellow;
+}
