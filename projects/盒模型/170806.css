@@ -1,0 +1,17 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	text-align: center;
+}
+.box{
+	width: 400px;
+	height: 500px;
+	border: 2px solid #ccc;
+	background-color: red;	
+	margin: 40px auto;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
