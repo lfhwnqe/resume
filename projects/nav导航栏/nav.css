@@ -1,0 +1,31 @@
+ul{
+	list-style-type: none;
+
+}
+li{
+	padding: 8px 16px;
+}
+.nav{
+	margin-left:20%;
+	margin-right: 20%;
+	border: 1px solid #f1f1f1;
+	border-radius: 3px;
+	background-color: #f1f1f1;
+}
+.fir{
+	float: left;
+	margin: 10px;
+}
+.mor{
+	position: relative;
+	display: block;
+	clear:left;
+}
+a{
+	color:black;
+	text-decoration-line: none;
+	border: 
+}
+a:hover{
+	background-color: #cccccc;
+}
