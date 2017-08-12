@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height:100%;
+	width:100%;
+}
+.rit{
+	width: 200px;
+	height: 100%;
+	background: red;
+	float: right;
+}
+.main{
+	margin-right:210px;
+	height: 100%;
+	background: blue;
+}

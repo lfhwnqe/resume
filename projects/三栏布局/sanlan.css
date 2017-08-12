@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,body {
+	width: 100%;
+	height: 100%;
+}
+.rit {
+	width: 200px;
+	height: 100%;
+	background: red;
+	float: right;
+}
+.lef {
+	width: 200px;
+	height: 100%;
+	background: yellow;
+	float: left;
+}
+
+.cen {
+	height: 100%;
+	margin: auto 205px;
+	background: blue;
+}
