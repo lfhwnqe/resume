@@ -1,0 +1,14 @@
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.align{
+	text-align: center;
+}
+ul{
+	list-style: none;
+}
+.padding-top{
+	padding-top: 250px;
+}
