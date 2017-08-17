@@ -86,6 +86,11 @@ main>.second>ul>li{
 	font-size: 72px;
 	color: #fed030;
 }
+
+
+/*第三页*/
+
+
 main>.three>ul>.img-size{
 	width: 30%;
 	height: 100%;
@@ -130,11 +135,129 @@ main>.three>ul{
 }
 
 
+/*第四页*/
 
 
+main>.fourth{
+	position: relative;
+}
+main>.fourth>.line>ul{
+	margin: 0 60px;
+}
+main>.fourth>.line>.double>li{
+	float: right;
+}
+main>.fourth>.line>.odd>li{
+	position: relative;
+	width: calc(50% + 100px);
+	height: 200px;
+}
+main>.fourth>.line>.double>li{
+	position: relative;
+	width: calc(50% + 100px);
+	height: 200px;
+}
+main>.fourth>.line>.double>li>img{
+	float: left;
+	border-radius: 50%;
+}
+main>.fourth>.line>.odd>li>img{
+	float: right;
+	border-radius: 50%;
+}
+main>.fourth>.line>ul>li{
+	margin: 50px 0;
+}
+main>.fourth>.line::before {
+	/*height: 100%;*/
+	left: 50%;
+	top:130px;
+	bottom: 60px;
+	content: "";
+	position: absolute;
+	width: 2px;
+	background-color: black;
+	display: block;
+	padding-bottom: -60px;
+	/* style */
+}
+main>.fouth>.line{
+	margin-bottom: -60px;
+}
 
 
+/*第五页*/
+
+main>.fifth{
+	background-color: #f7f7f7;
+}
+.five-div>ul>li{
+	float: left;
+	width: 33.33%;
+}
+.five-div{
+	margin: 40px 120px;
+}
+.five-div>ul>li>img{
+	border-radius: 50%;
+	border: 7px solid #fff;
+}
+.five-div>ul>li>a{
+	display: inline-block;
+	border-radius: 100%;
+}
+.five-div .iconfont{
+	font-size: 32px;
+	padding: 10px;
+}
+.five-div>ul>li>a:hover{
+	background-color: #fed136;
+}
+
+/*第六页*/
 
 
+main>.sixth{
+	position: relative;
+	padding-top: 280px;
+	height: 100%;
+	width: 100%;
+	background:url(backg.jpg);
+	background-size:cover;
+}
+.form{
+	width: 100%;
+	height: 120px;
+}
+main>.sixth>.form>.form-small{
+	float: left;
+	margin-left: 120px; 
+}
+main>.sixth>.form>.form-small>input{
+	display: block;
+	height: 28px;
+	width: 400px;
+	margin-bottom: 12px;
+}
+main>.sixth>.form>.form-big>input{
+	display: block;
+	height: 108px;
+	width: 400px;
+}
+main>.sixth>.form>.form-big{
+	float: right;
+
+	margin-right: 120px;
+}
+main>.sixth>a{
+	display: inline-block;
+	color: #fff;
+	background: #fed136;
+	padding: 15px 20px;
+	border-radius: 3px;
+}
+main>.sixth>a:hover{
+	background: #e8cb4f;	
+}
 
 
