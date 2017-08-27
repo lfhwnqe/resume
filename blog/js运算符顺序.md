@@ -104,11 +104,12 @@ console.log(val) //num2     运算顺序：(( typeof a ) + b )|| ( c > 0 ),||中
 
 var d = 5;
 var data = d ==5 && console.log('bb')
-console.log(data)//bb   运算顺序：var data = ((d ==5) && console.log('bb'))，&&中第一个值能转换成false则返回第一个，否则返回第二个
+console.log(data)//bb undefined 运算顺序：var data = ((d ==5) && console.log('bb'))，&&中第一个值能转换成false则返回第一个，否则返回第二个，这里返回console.log，结果为undefined
 
 var data2 = d = 0 || console.log('haha')
 console.log(data2)
- // haha   运算顺序：var data2 = (d = (0 || console.log('haha')))
+ /* haha undefined  运算顺序：var data2 = (d = (0 || console.log('haha')))，这里返回console.log，结果为undefined
+ */
 var x = !!"Hello" + (!"world", !!"from here!!");
 console.log(x)
 /*
